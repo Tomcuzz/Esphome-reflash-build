@@ -3,12 +3,8 @@ name: Runner Build/Push
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'runner/**'
   pull_request:
     branches: [ main ]
-    paths:
-      - 'runner/**'
   schedule:
     - cron: '0 0 * * 6'
 
