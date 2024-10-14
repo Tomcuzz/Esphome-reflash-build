@@ -33,4 +33,5 @@ RUN python3 -m venv venv && \
     venv/bin/pip install setuptools
 
 # Set the default command to run a bash shell
-ENTRYPOINT ["/bin/bash"]
+# ENTRYPOINT ["/bin/bash"]
+CMD ["sleep", "infinity"]
